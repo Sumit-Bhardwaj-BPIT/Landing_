@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark " id="home">
+        <div class="container-fluid top">
+            <div class="top-left">
+                <a class="navbar-brand text-white brand" href="#">Fitness Gym</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            </div>
+            <div class="top-right">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown text-white last">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu bg-dark drop">
+                      <li><a class="dropdown-item text-white" href="#">Trainers</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Equipments</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                </div>
+          </div>
+          
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide caro">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="images/g1.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div style class="carousel-item">
+            <img src="images/g2.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/g3.jpg" class="d-block w-100 " alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="about" id="about">
+        <h1 class="text-dark">About us</h1>
+        <div class="con">
+            <div class="left">
+                Welcome to our leading fitness haven! At our gym, we pride ourselves on being more than just a workout space. We are a community of health enthusiasts, passionately devoted to elevating your fitness experience. With cutting-edge facilities, personalized training programs, and a variety of engaging classes, we cater to every individual's unique needs and goals. Our dedicated team of expert trainers is committed to guiding and motivating you on your fitness journey. From cardio and strength training to yoga and HIIT, we offer a diverse range of workouts to keep you inspired and challenged. Unleash your potential with us and embark on a rewarding path to a healthier, stronger, and happier you!
+            </div>
+            <div class="right">
+                <img src="images/g2.jpg" alt="" srcset="">
+            </div>
+
+        </div>
+      </div>
+      <div class="contact-con" id="contact">
+        <h1 class="head">Contact Us</h1>
+        <div class="contact">
+            <div class="contact-left">
+                <h2>Contact Details</h2>
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <p class="bold">Email: </p> 
+                        <a href="" target="_blank">fitnessclub@gmail.com</a>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <p class="bold">Phone No.</p>
+                        <p>+91-00000000000</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <i class="fa-solid fa-user social-icon"></i>
+                    <div>
+                        <p class="bold">Social Links:</p>
+                        <div class="links">
+                            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin linkedin link-logo "></i></a>
+                            <a href="https://twitter.com"><i class="fa-brands fa-twitter link-logo"></i></a>
+                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram link-logo"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <h2>Message me</h2>
+                    <div>
+                        <input type="text" class="input-first" placeholder="Name">
+                        <input type="text" class="input-first" placeholder="Email">
+                    </div>
+                    <br>
+                    <input type="text" placeholder="Subject">
+                    <br>
+                    <textarea placeholder="Message" class="message-input"></textarea>
+                    <button class="btn1"> <a href="">Send Message</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4f3b8018a6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

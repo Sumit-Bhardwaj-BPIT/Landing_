@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    margin-right: 40px;
+}
+nav ul li {
+    margin-right: 40px;
+}
+.brand{
+    margin-left: 50px;
+}
+.last{
+    margin-right: 100px;
+}
+.carousel-inner{
+    height: 90vh;
+}
+
+.item, img{
+    height: 100%;
+    width:  100%;
+}
+
+.about{
+    text-align: center;
+    margin: 100px auto;
+    width: 80%;
+}
+
+.con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    text-align: left;
+    width: 45%;
+}
+.right{
+    width: 500px;
+    height: 500px;
+}
+.right img{
+    object-fit: contain;
+}
+
+.contact-con{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    height: 92vh; 
+}
+.contact-con h1{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 45%;
+}
+.contact-left h2, .contact-right h2{
+    margin: 70px 0 0;
+    font-size: 2rem;
+}
+
+.contact-right{
+    width: 40%;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+.contact-right input, textarea{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border-color: #000000;
+    /* border: none; */
+}
+
+textarea{
+    border: 2px solid black;
+}
+.message-input{
+    height: 80px;
+    vertical-align: top;
+}
+.input-first{
+    width: 49%;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.icon i{
+    padding: 16px 16px 16px 0;
+    color: #0062ff;
+    font-size: 1.3rem;
+}
+.bold{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social-icon{
+    color: #0062ff;
+    font-size: 1.3rem;
+    padding: 20px 16px 16px 0;
+}
+.linkedin{
+    padding-left: 0;
+}
+.link-logo{
+    font-size: 1.5rem;
+    padding: 0 8px;
+    color: #000;
+}
+.link-logo:hover{
+    transform: scale(1.05);
+    color:#0062ff;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: #000;
+}
+::-webkit-scrollbar-track{
+    background-color: #505050;
+}
+
+a:active, a:visited, a:link, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn1{
+    background-color: #0062ff;
+    margin-top: 10px;
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    border: none;
+    transition: all 0.5s ease;
+    color: aliceblue;
+    border-radius: 8px;
+}
+.btn1:hover{
+    transform: scale(1.05);
+}
+footer{
+    height: 50px;
+    font-size: 1.2rem;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+footer p{
+    opacity: 0.8;
+}
+.dropdown-item:hover{
+    color: white;
+}
